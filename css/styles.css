@@ -265,6 +265,9 @@ body{
 
 /*_______Portfolio________*/
 
+.portfolio{
+}
+
 .portfolio-btn{
     font-family: inherit;
     font-weight: 500;
@@ -273,12 +276,21 @@ body{
     color: var(--blue-color);
     background: #F4F4FD;
     cursor: pointer;
+    padding: 8px 16px;
+    display: block;
+
 }
 
-.port-btn{
+.portn-btn{
     display: flex;
+    margin: 96px auto 72px;
+    padding: 8px 16px;
+    
 }
 
+.port-btn-list{
+    margin-right: 24px;
+}
 
 .portfolio-btn:hover{
     background: var(--blue-color);
@@ -288,6 +300,20 @@ body{
 .portfolio-btn:focus{
     background: var(--blue-color);
     color: var(--white-color)
+}
+
+.port-photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    margin-bottom: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.port-photo-list{
+width: calc(100% / 3);
+margin-bottom: 48px;
 }
 
 .portfolio-name{
@@ -301,5 +327,9 @@ body{
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
+}
+
+.port-info{
+    
 }
 
