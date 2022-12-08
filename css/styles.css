@@ -329,7 +329,8 @@ margin-bottom: 48px;
     color: #434455;
 }
 
-.port-info{
-    
+.portn-btn .container {
+    display: flex;
+    align-items: center;
 }
 
