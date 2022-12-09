@@ -107,7 +107,7 @@ body{
 .section-one{
     background: var(--gray-color);
     padding-top: 192px;
-    padding-bottom: 291px;
+    padding-bottom: 192px;
 }
 
 .section-one-title{
@@ -116,6 +116,7 @@ body{
     line-height: calc(60 / 56);
     color: var(--white-color);
     text-align: center;
+    margin: 0;
 }
 
 .section-one-btn{
@@ -198,12 +199,14 @@ body{
     font-size: 36px;
     line-height: calc(40 / 36);
     color: var(--gray-color);
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     text-align: center;
+    margin: 0;
 }
 
 .photos-three{
     display: flex;
+    margin: 0;
 }
 
 .margin-three{
@@ -232,11 +235,13 @@ body{
     line-height: calc(40 / 36);
     color: var(--gray-color);
     text-align: center;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
+    margin: 0;
 }
 
 .photos-four{
     display: flex;
+    margin: 0;
 }
 
 .margin-four{
@@ -247,9 +252,14 @@ body{
     margin-right: 0;
 }
 
+.section-four-photo{
+    display: block;
+}
+
 .photo-text{
     padding: 32px 16px;
     background: var(--white-color);
+    display: block;
 }
 
 .section-four-name{
@@ -258,6 +268,7 @@ body{
     line-height: calc(24 / 20);
     color: var(--gray-color);
     text-align: center;
+    margin: 0;
 }
 
 .section-four-prof{
@@ -299,6 +310,7 @@ body{
     line-height: calc(24 / 16);
     color: #E7E9FC;
     width: 264px;
+    margin: 0;
 }
 
 /*_______Portfolio________*/
@@ -306,6 +318,7 @@ body{
 .portfolio{
     padding-top: 96px;
     padding-bottom: 120px;
+    margin: 0;
 }
 
 .portfolio-btn{
@@ -323,17 +336,22 @@ body{
 
 .portn-btn{
     display: flex;
-    margin-bottom:72px;
     justify-content: center;
-    margin-right: 24px;
+    padding: 0;
+    margin: 0;
 }
 
 .port-btn-list{
-    padding: 8px 16px;
+    margin-right: 24px;
+    margin-bottom: 72px;
 }
 
 .port-btn-list:last-child{
     margin-right: 0;
+}
+
+.portfolio-btn{
+    padding: 12px 24px;
 }
 
 .portfolio-btn:hover{
@@ -348,17 +366,23 @@ body{
 
 .port-photo{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 48px 24px;   
 }
 
 .port-photo-list{
-    border: 0.5px solid #F4F4FD;
-    margin-right: 24px;
-    margin-bottom: 48px; 
+}
+
+.portfolio-photo{
+    display: block;
 }
 
 .port-photo-text{
     padding: 32px 16px;
+    border: 0.5px solid #F4F4FD;
+    border-top: none;
 }
 
 .portfolio-name{
@@ -366,6 +390,7 @@ body{
     font-size: 20px;
     line-height: calc(24 / 20);
     color: var(--gray-color);
+    margin: 0;
 }
 
 .portfolio-prod{
