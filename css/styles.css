@@ -81,7 +81,6 @@ body{
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
-    margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -199,9 +198,9 @@ body{
     font-size: 36px;
     line-height: calc(40 / 36);
     color: var(--gray-color);
-    padding-bottom: 72px;
-    text-align: center;
     margin: 0;
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .photos-three{
@@ -235,8 +234,8 @@ body{
     line-height: calc(40 / 36);
     color: var(--gray-color);
     text-align: center;
-    padding-bottom: 72px;
     margin: 0;
+    margin-bottom: 72px;
 }
 
 .photos-four{
@@ -339,11 +338,11 @@ body{
     justify-content: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 72px;
 }
 
 .port-btn-list{
     margin-right: 24px;
-    margin-bottom: 72px;
 }
 
 .port-btn-list:last-child{
